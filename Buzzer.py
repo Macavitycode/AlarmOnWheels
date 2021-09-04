@@ -27,8 +27,8 @@ class Buzzer:
         of alarm_length seconds
         """
 
+        print('Buzzing started')
         t_end = time() + self.alarm_length
-
         while time() < t_end:
 
             self.b_on()
@@ -36,6 +36,7 @@ class Buzzer:
             self.b_off()
             sleep(time_period)
 
+        print('Buzzing done')
 
     def __init__(self, p, alarm_length=5):
         """

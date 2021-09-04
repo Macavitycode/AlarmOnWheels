@@ -17,7 +17,7 @@ class DifferentialDrive:
         GPIO.output(self.r_1, 0)
         GPIO.output(self.r_2, 0)
 
-        sleep(0.1)
+        sleep(0.75)
 
 
     def move_forward(self, hold_time):
@@ -85,17 +85,19 @@ class DifferentialDrive:
         Method to move in roughly a square
         """
 
+        print('Moving in a square started')
         t_end = time() + hold_time
-
         while time() < t_end:
-            self.forward(side)
-            self.turn_right(0.5)
-            self.forward(side)
-            self.turn_right(0.5)
-            self.forward(side)
-            self.turn_right(0.5)
-            self.forward(side)
-            self.turn_right(0.5)
+            self.move_backward(side)
+            self.turn_right(0.25)
+            self.move_backward(side)
+            self.turn_right(0.25)
+            self.move_backward(side)
+            self.turn_right(0.25)
+            self.move_backward(side)
+            self.turn_right(0.25)
+
+        print('Moving in a square done')
 
 
     def __init__(self, l_1, l_2, r_1, r_2, l_pwm=0, r_pwm=0):

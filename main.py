@@ -15,9 +15,9 @@ from Buzzer import Buzzer
 if __name__=="__main__":
 
     GPIO.setwarnings(False)
-    GPIO.setmode(GPIO.BCM)
+    GPIO.setmode(GPIO.BOARD)
 
-    bot = DifferentialDrive(1, 2, 3, 4)
+    bot = DifferentialDrive(11, 7, 10, 8)
     buz = Buzzer(40)
 
     format_flag = 0
@@ -38,8 +38,16 @@ if __name__=="__main__":
     sleep(alarm_in * 60)
 
 
+    buzzer_thread = threading.Thread(target=buz.b_beep, args=(0.1,))
+    driver_thread = thread = threading.Thread(target=bot.move_square, args=(0.5,4,))
 
+    buzzer_thread.start()
+    driver_thread.start()
 
+    buzzer_thread.join()
+    driver_thread.join()
+
+    print('All Done! :)')
 
     GPIO.cleanup()
 
