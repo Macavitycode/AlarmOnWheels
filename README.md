@@ -14,7 +14,7 @@ This is a project that tries to make an alarm clock so annoying you have to get 
 The alarm clock is so obnoxiously loud and distracting that only the most determined sleepers would be able to sleep through it.
 
 
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/ajM1n26zZD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ajM1n26zZD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Components Used
 
