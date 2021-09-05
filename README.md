@@ -13,8 +13,8 @@ This is a project that tries to make an alarm clock so annoying you have to get 
 
 The alarm clock is so obnoxiously loud and distracting that only the most determined sleepers would be able to sleep through it.
 
-**NOTE TO SELF: Add video link here**
 
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/ajM1n26zZD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Components Used
 
@@ -29,6 +29,9 @@ The alarm clock is so obnoxiously loud and distracting that only the most determ
 
 Along with these having a soldering iron, a hot melt glue gun and any sort of superglue (I used Fevikvik) would be extremely useful.
 
+![IMG_20210904_232451](https://user-images.githubusercontent.com/50370816/132123765-d4b4dfb3-f7f5-4909-a007-d7a13034c571.jpg)
+
+
 ## Design Process
 
 The most time taking aspect of this project to me was the design and 3d printing part. I'd worked on programming Raspberry Pi's before so it wasn't much of a challenge.
@@ -37,6 +40,4 @@ I've elaborated on the hardware design aspect [here](./CAD/README.md)
 
 I've also explained the code further [here](./Scripts/README.md)
 
-## Pictures
-
-![IMG_20210904_232451](https://user-images.githubusercontent.com/50370816/132123765-d4b4dfb3-f7f5-4909-a007-d7a13034c571.jpg)
+<img width="1280" alt="full_model" src="https://user-images.githubusercontent.com/50370816/132122407-1938131f-72d8-403d-91e1-a9a750c0c9ee.png">

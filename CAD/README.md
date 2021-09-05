@@ -28,9 +28,12 @@ A lot of these considerations as you can guess were born out of my laziness as w
   ![holes_too_small](https://user-images.githubusercontent.com/50370816/132123062-a745cdc4-d540-4fde-856a-b2b90b0fda65.jpeg)  
 
 
-## Credits
+## Model Credits
 
-**NOTE TO SELF: add credits here**
+- [L298N Motor Driver](https://grabcad.com/library/l298n-12-48v-2a-2-motors-1)
+- [Yellow DC Motor With Gearbox](https://grabcad.com/library/yellow-dc-motor-gearbox-1)
+- [Yellow Wheel](https://grabcad.com/library/tt-motor-wheel-yellow-1)
+- [Raspberry Pi](https://grabcad.com/library/raspberry-pi-4-model-b-1)
 
 
 ## Pictures
